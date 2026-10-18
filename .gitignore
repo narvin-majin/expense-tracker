@@ -1,0 +1,18 @@
+cat > .gitignore <<'EOF'
+# Compiled Java files
+*.class
+
+# Local SQLite database and backups
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+EOF
